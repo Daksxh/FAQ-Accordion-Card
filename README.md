@@ -34,5 +34,5 @@ Your users should be able to:
 <p>HTML, CSS, JavaScript</p>
 
 ## What I learned
-- My first Frontendmentor challenge using Javascript!
+- My first Frontendmentor challenge using Angular!
 - I had difficulty getting the orange block and the woman at the computer images to position correctly. I used negative margins and absolute positioning.
