@@ -3,7 +3,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://waynetasaki.github.io/faq-accordion-card/" target="_blank">🌐 Live Site </a>  |  
+    <a href="https://daksxh.github.io/FAQ-Accordion-Card/" target="_blank">🌐 Live Site </a>  |  
     <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam" target="_blank"> Challenge </a> 
   </h3>
 </div>
