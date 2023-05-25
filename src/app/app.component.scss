@@ -1,0 +1,312 @@
+$Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$Soft-red: hsl(14, 88%, 65%);
+
+$Very-dark-grayish-blue: hsl(237, 12%, 33%);
+$Dark-grayish-blue: hsl(240, 6%, 50%);
+
+$Light-grayish-blue: hsl(240, 5%, 91%);
+
+.container
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    padding: 7rem 0;
+    width: 85%;
+    position: relative;
+
+    .img-women2
+    {
+        display: none;
+    }
+
+    .img-box
+    {
+        position: absolute;
+        top: 20.5rem;
+        left: -5.5rem;
+        z-index: 222;
+    }
+}
+
+.card
+{
+    border: 0;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 55vh;
+    border-radius: 1.7rem;
+    overflow: hidden;
+
+    box-shadow: 5px 15px 15px 2px #5944BD;
+}
+
+.half-l
+{
+    img
+    {
+        position: absolute;
+    }
+
+    .img-g
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: -7rem;
+
+        .img-women
+        {
+            overflow: hidden;
+            width: 100%;
+            top: -13rem;
+            object-fit: scale-down;
+            z-index: 1;
+        }
+
+        .img-bg
+        {
+            top: -34rem;
+            left: -29rem;
+            z-index: 0;
+        }
+    }
+}
+
+.half-r
+{
+    position: relative;
+    z-index: 1;
+
+    h1
+    {
+        font-weight: bold;
+    }
+
+    .faq-g
+    {
+        border-bottom: 1.5px solid rgba($Dark-grayish-blue, .3);
+
+        a
+        {
+            color: $Dark-grayish-blue;
+            text-decoration: none;
+        }
+
+        .faq-header
+        {
+            img,p
+            {
+                margin: 0;
+                transition: all .1s ease;
+            }
+
+            img
+            {
+                object-fit: contain;
+            }
+        }
+
+        .faq-header:hover
+        {
+            p{
+                color: $Soft-red;
+            }
+        }
+
+        .info
+        {
+            color: $Dark-grayish-blue;
+        }
+    }
+
+    .faq-header.active
+    {
+        img
+        {
+            rotate: (180deg);
+        }
+
+        p
+        {
+            color: $Very-dark-desaturated-blue;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width:1399px) 
+{
+    .half-l
+    {
+        .img-g
+        {
+            left: -4.5rem;
+            top: 2rem;
+
+            .img-women
+            {
+                top: -13rem;
+            }
+
+            .img-bg
+            {
+                top: -36rem;
+                left: -32rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1193px) 
+{
+    .half-l
+    {
+        .img-g
+        {
+            left: -3.5rem;
+            top: 4rem;
+
+            .img-women
+            {
+                top: -13rem;
+            }
+
+            .img-bg
+            {
+                top: -37rem;
+                left: -36.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) 
+{
+    .col-sm-12
+    {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .content
+    {
+        .img-box,.img-women2
+        {
+            width: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            object-fit: scale-down;
+        }
+
+        .img-women2
+        {
+            display: block;
+            top: -9rem;
+            z-index: 1;
+        }
+
+        .img-box
+        {
+            left: -11rem;
+            top: -10rem;
+        }
+    }
+
+    .half-l
+    {
+        margin-top: 14rem;
+
+        .img-g
+        {
+            .img-bg
+            {
+                width: 85%;
+                left: 5.9rem;
+                top: -36rem;
+                object-fit: scale-down;
+            }
+
+            .img-women
+            {
+                display: none;
+            }
+        }
+    }
+
+    .half-r
+    {
+        h1
+        {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:767px) 
+{
+    .content
+    {
+        .img-women2
+        {
+            width: 76%;
+            left: 3.9rem;
+            top: -2rem;
+        }
+
+        .img-box
+        {
+            width: 30%;
+            left: 2.8rem;
+            top: 3.8rem;
+        }
+    }
+
+    .half-l
+    {
+        .img-g
+        {
+            left: 5.9rem;
+            top: -30rem;
+        }
+    }
+}
+
+@media screen and (max-width:575px) 
+{
+    .content
+    {
+        .img-women2
+        {
+            width: 76%;
+            left: 10vw;
+            top: -2rem;
+        }
+
+        .img-box
+        {
+            width: 30%;
+            left: 7vw;
+            top: 3.8rem;
+        }
+    }
+
+    .half-l
+    {
+        margin-top: 10rem;
+
+        .img-g .img-bg
+        {
+            left: 17vw;
+            top: -27rem;
+        }
+    }
+}

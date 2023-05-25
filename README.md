@@ -1,27 +1,38 @@
-# FAQAccordionCard
+<div align="center"><img src="https://i.ibb.co/bNrvx5V/Screen-Shot-2022-04-19-at-11-12-01-AM.png"></img></div>
+<h1 align="center">FAQ Accordion Card</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+<div align="center">
+  <h3>
+    <a href="https://waynetasaki.github.io/faq-accordion-card/" target="_blank">🌐 Live Site </a>  |  
+    <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam" target="_blank"> Challenge </a> 
+  </h3>
+</div>
+<div align="center">
+   Solution for a challenge from  <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.
+</div>
+<br>
 
-## Development server
+## About This Project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p>This challenge was to build out an FAQ accordion card and get it looking as close to the design as possible.
 
-## Code scaffolding
+<br>
+<br>
+Your users should be able to:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. View the optimal layout for the component depending on their device's screen size
+2. See hover states for all interactive elements on the page
+3. Hide/Show the answer to a question when the question is clicked
+4. Bonus: Complete the challenge without using JavaScript</p>
+<br>
+<br>
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Built with
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<p>HTML, CSS, JavaScript</p>
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## What I learned
+- My first Frontendmentor challenge using Javascript!
+- I had difficulty getting the orange block and the woman at the computer images to position correctly. I used negative margins and absolute positioning.
